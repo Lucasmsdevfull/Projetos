@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body >
+    <header class="flex items-center justify-between m-[15px]">
+        <img class="w-[40px]" src="https://images.vexels.com/media/users/3/137724/isolated/preview/c30bc541ea2fe03747c7f569bee90089-minimalismo-infinity-logo-infinite.png" alt="Logo">
+
+        <div class="flex items-center border rounded-sm border-gray-200">
+        <i class="fa-solid fa-magnifying-glass text-gray-200 mx-3"></i>
+        <input class="outline-none w-100 text-gray-400" type="text" placeholder="Search for projects">
+        </div>
+
+        <div class="flex items-center justify-between gap-[20px]">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-bell"></i>
+            <img class="rounded-full w-[40px]" src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
+        </div>
+
+    </header>
+
+    <section class="flex">
+        <menu class="bg-none w-60 h-100 flex flex-col">
+            <nav class="flex items-start flex-col">
+                <li class="flex flex-col my-4 mx-1 items-start">
+                    <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Dashboard">
+                        <i class="fa-solid fa-house flex items-center text-gray-400"></i>
+                        <p class="text-gray-400 px-0.5">Dashboard</p>
+                    </button>
+                    <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Forms">
+                        <i class="fa-regular fa-clipboard flex items-center text-gray-400"></i>
+                        <p class="text-gray-400 px-2">Forms</p>
+                    </button>
+                    <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Cards">
+                        <i class="fa-regular fa-folder flex items-center text-gray-400"></i>
+                        <p class="text-gray-400 px-1">Cards</p>
+                    </button>
+                    <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="botões">
+                        <i class="fa-solid fa-arrow-pointer flex items-center text-gray-400"></i>
+                        <p class="text-gray-400 px-2">Buttons</p>
+                    </button>
+                    <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Modals">
+                        <i class="fa-regular fa-copy flex items-center text-gray-400"></i>
+                        <p class="text-gray-400 px-1">Modals</p>
+                    </button>
+                    <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Table">
+                        <i class="fa-solid fa-bars flex items-center text-gray-400"></i>
+                        <p class="text-gray-400 px-1">Table</p>
+                    </button>
+                    <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-2 cursor-pointer px-2" name="Pages">
+                        <i class="fa-solid fa-border-all flex items-center text-gray-400"></i>
+                        <p class="text-gray-400  px-1">Pages</p>
+                    </button>
+                </li>
+            </nav>
+            <button class= "transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 m-4 bg-[#7F3DF4] text-white py-2 px-1 rounded-lg cursor-pointer">Create account +</button>
+        </menu>
+
+        <main class="bg-[#F9FAFB] w-300 h-129 rounded-tl-lg inset-shadow-sm shadow-xl">
+            <h1 class="m-4 font-bold">Dashboard</h1>
+            
+            <section class="flex items-center m-8 bg-[#7F3DF4] h-10 rounded-lg inset-shadow-sm shadow-xl">
+                <i class="fa-solid fa-star flex text-white mx-5"></i>
+                <p class="text-white"> Star this project on Github</p>
+            </section>
+
+            <section class="" name="Cards">
+                <div class="total-cliente">
+                    <p>Total clientes</p>
+                    
+                </div>
+
+            </section>
+
+        </main>
+        
+    </section>
+</body>
+</html>
