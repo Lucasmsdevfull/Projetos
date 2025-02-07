@@ -19,9 +19,9 @@
         </div>
 
         <div class="flex items-center justify-between gap-[20px]">
-            <i class="fa-solid fa-moon"></i>
-            <i class="fa-solid fa-bell"></i>
-            <img class="rounded-full w-[40px]" src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
+            <i class="cursor-pointer text-[#7F3DF4] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 fa-solid fa-moon"></i>
+            <i class="cursor-pointer text-[#7F3DF4] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 fa-solid fa-bell"></i>
+            <img class="cursor-pointer text-[#7F3DF4] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 rounded-full w-[40px]" src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
         </div>
 
     </header>
@@ -29,56 +29,105 @@
     <section class="flex">
         <menu class="bg-none w-60 h-100 flex flex-col">
             <nav class="flex items-start flex-col">
-                <li class="flex flex-col my-4 mx-1 items-start">
+                <li class="flex flex-col my-4 mx-2 items-start">
+
                     <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Dashboard">
                         <i class="fa-solid fa-house flex items-center text-gray-400"></i>
                         <p class="text-gray-400 px-0.5">Dashboard</p>
                     </button>
+                    
                     <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Forms">
                         <i class="fa-regular fa-clipboard flex items-center text-gray-400"></i>
                         <p class="text-gray-400 px-2">Forms</p>
                     </button>
+                    
                     <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Cards">
                         <i class="fa-regular fa-folder flex items-center text-gray-400"></i>
                         <p class="text-gray-400 px-1">Cards</p>
                     </button>
+                    
                     <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="botões">
                         <i class="fa-solid fa-arrow-pointer flex items-center text-gray-400"></i>
                         <p class="text-gray-400 px-2">Buttons</p>
                     </button>
+                    
                     <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Modals">
                         <i class="fa-regular fa-copy flex items-center text-gray-400"></i>
                         <p class="text-gray-400 px-1">Modals</p>
                     </button>
+                    
                     <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-x-2 cursor-pointer px-2" name="Table">
                         <i class="fa-solid fa-bars flex items-center text-gray-400"></i>
                         <p class="text-gray-400 px-1">Table</p>
                     </button>
+                    
                     <button class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] mx-1 flex items-center flex-row gap-2 cursor-pointer px-2" name="Pages">
                         <i class="fa-solid fa-border-all flex items-center text-gray-400"></i>
                         <p class="text-gray-400  px-1">Pages</p>
                     </button>
+
                 </li>
             </nav>
+
             <button class= "transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 m-4 bg-[#7F3DF4] text-white py-2 px-1 rounded-lg cursor-pointer">Create account +</button>
         </menu>
 
-        <main class="bg-[#F9FAFB] w-300 h-129 rounded-tl-lg inset-shadow-sm shadow-xl">
-            <h1 class="m-4 font-bold">Dashboard</h1>
-            
-            <section class="flex items-center m-8 bg-[#7F3DF4] h-10 rounded-lg inset-shadow-sm shadow-xl">
+        <main class="bg-#F9FAFB w-[100%] rounded-tl-lg inset-shadow-sm shadow-xl flex flex-col p-6">
+
+            <section class="py-4 m-2" name="Superior principal">
+            <h1 class="font-bold">Dashboard</h1>
+            </section>
+
+            <section class="flex items-center rounded-lg inset-shadow-sm shadow-xl p-2 bg-[#7F3DF4] my-2">
                 <i class="fa-solid fa-star flex text-white mx-5"></i>
                 <p class="text-white"> Star this project on Github</p>
             </section>
 
-            <section class="w-60" name="Cards">
-                <div class="grid-flow-col grid-rows-3 gap-4 bg-red-300" name="total-cliente">
-                    <div class="row-span-3 rounded-full p-5 bg-white " nome="circle" ></div>
-                    <p class="col-span-2 bg-blue-300">Total customers</p>
-                    <p class="col-span-2 row-span-2 g-red-700">12.000</p>
-                    
+            <section class="flex items-center justify-between rounded-sm text-[12px] font-bold" name="Cards">
+
+                <div class="flex items-center py-6 grid grid-flow-col grid-rows-3 border-1 border-gray-300 bg-white rounded w-50 h-20" name="total-cliente">
+                    <div class="row-span-3 flex items-center justify-center " name="circle" >
+                        <div class="rounded-full p-4 bg-orange-100 w-2 h-2 flex items-center justify-center">
+                            <i class="fa-solid fa-users text-orange-700"></i>
+                        </div>
+                    </div>
+                    <p class="col-span-2 flex items-center">Total customers</p>
+                    <p class="col-span-2 row-span-2 flex items-center">12.000</p>
                 </div>
 
+                <div class="flex items-center py-6 grid grid-flow-col grid-rows-3 border-1 border-gray-300 bg-white rounded w-50 h-20" name="total-cliente">
+                    <div class="row-span-3 flex items-center justify-center " name="circle" >
+                        <div class="rounded-full p-4 bg-orange-100 w-2 h-2 flex items-center justify-center">
+                            <i class="fa-solid fa-money-bills text-green-700"></i>
+                        </div>
+                    </div>
+                    <p class="col-span-2 flex items-center">Account Balence</p>
+                    <p class="col-span-2 row-span-2 flex items-center">$ 1.000,00</p>
+                </div>
+
+                <div class="flex items-center py-6 grid grid-flow-col grid-rows-3 border-1 border-gray-300 bg-white rounded w-50 h-20" name="total-cliente">
+                    <div class="row-span-3 flex items-center justify-center " name="circle" >
+                        <div class="rounded-full p-4 bg-orange-100 w-2 h-2 flex items-center justify-center">
+                            <i class="fa-solid fa-cart-shopping text-blue-500"></i>
+                        </div>
+                    </div>
+                    <p class="col-span-2 flex items-center">New Sales</p>
+                    <p class="col-span-2 row-span-2 flex items-center">3075</p>
+                </div>
+
+                <div class="flex items-center py-6 grid grid-flow-col grid-rows-3 border-1 border-gray-300 bg-white rounded w-50 h-20" name="total-cliente">
+                    <div class="row-span-3 flex items-center justify-center " name="circle" >
+                        <div class="rounded-full p-4 bg-orange-100 w-2 h-2 flex items-center justify-center">
+                            <i class="fa-solid fa-comment-dots text-green-700"></i>
+                        </div>
+                    </div>
+                    <p class="col-span-2 flex items-center">Contacts pendentes</p>
+                    <p class="col-span-2 row-span-2 flex items-center">78</p>
+                </div>
+            </section>
+
+            <section class="" name="Table">
+                
             </section>
 
         </main>
