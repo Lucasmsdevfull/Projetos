@@ -72,8 +72,7 @@
             <button class= "transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 m-4 bg-[#7F3DF4] text-white py-2 px-1 rounded-lg cursor-pointer">Create account +</button>
         </menu>
 
-        <main class="bg-#F9FAFB w-[100%] rounded-tl-lg inset-shadow-sm shadow-xl flex flex-col p-6">
-
+        <main class="bg-[#F4F5F7] w-[100%] rounded-tl-lg inset-shadow-sm shadow-xl flex flex-col p-6">
             <section class="m-2" name="Superior principal">
             <h1 class="font-bold">Dashboard</h1>
             </section>
@@ -126,19 +125,23 @@
                 </div>
             </section>
 
-            <div class="border-collapse rounded-sm border border-gray-300  text-left" name="Tabela">
-            <table class="w-full border-collapse">
-                <thead class="border-b border-gray-300 bg-gray-300">
-                    <tr>
-                        <th class="px-3 py-2">Cliente</th>
-                        <th class="px-3 py-2">Valor</th>
-                        <th class="px-3 py-2">Status</th>
-                        <th class="px-3 py-2">Data</th>
+            <div class="rounded-sm border border-gray-400 text-left" name="Tabela">
+            <table class="w-full">
+                <thead class="border-b border-gray-400 rounded-sm">
+                    <tr class="">
+                        <th class="bg-gray-200 rounded-tl-sm px-3 py-2">Cliente</th>
+                        <th class="bg-gray-200 px-3 py-2">Valor</th>
+                        <th class="bg-gray-200 px-3 py-2">Status</th>
+                        <th class="bg-gray-200 rounded-tr-sm px-3 py-2">Data</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="px-3 py-2">Linha1Col1</td>
+                        <td class="flex items-center justify-center justify-start grid grid-flow-col grid-rows-3">
+                            <img class="row-span-3 rounded-full w-7" src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
+                            <div class="col-span-2 flex bg-sky-500 " name="Name_Cliente">Lucas Mendonça</div>
+                            <div class="col-span-2 row-span-2 bg-sky-500" name="Cargo">Gerente de Projetos</div>
+                        </td>
                         <td class="px-3 py-2">Linha1Col2</td>
                         <td class="px-3 py-2">Linha1Col3</td>
                         <td class="px-3 py-2">Linha1Col4</td>
@@ -160,9 +163,6 @@
                 </tbody>    
             </table>
             </div>  
-
-            </section>
-
         </main>
         
     </section>
