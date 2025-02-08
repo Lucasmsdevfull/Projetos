@@ -74,16 +74,16 @@
 
         <main class="bg-#F9FAFB w-[100%] rounded-tl-lg inset-shadow-sm shadow-xl flex flex-col p-6">
 
-            <section class="py-4 m-2" name="Superior principal">
+            <section class="m-2" name="Superior principal">
             <h1 class="font-bold">Dashboard</h1>
             </section>
 
-            <section class="flex items-center rounded-lg inset-shadow-sm shadow-xl p-2 bg-[#7F3DF4] my-2">
+            <section class="flex items-center rounded-lg inset-shadow-sm shadow-xl p-2 bg-[#7F3DF4]">
                 <i class="fa-solid fa-star flex text-white mx-5"></i>
                 <p class="text-white"> Star this project on Github</p>
             </section>
 
-            <section class="flex items-center justify-between rounded-sm text-[12px] font-bold" name="Cards">
+            <section class="flex items-center justify-between rounded-sm text-[12px] font-bold py-6" name="Cards">
 
                 <div class="flex items-center py-6 grid grid-flow-col grid-rows-3 border-1 border-gray-300 bg-white rounded w-50 h-20" name="total-cliente">
                     <div class="row-span-3 flex items-center justify-center " name="circle" >
@@ -126,9 +126,40 @@
                 </div>
             </section>
 
-            <table class="w-full">
-                <tr></tr>
+            <div class="border-collapse rounded-sm border border-gray-300  text-left" name="Tabela">
+            <table class="w-full border-collapse">
+                <thead class="border-b border-gray-300 bg-gray-300">
+                    <tr>
+                        <th class="px-3 py-2">Cliente</th>
+                        <th class="px-3 py-2">Valor</th>
+                        <th class="px-3 py-2">Status</th>
+                        <th class="px-3 py-2">Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-3 py-2">Linha1Col1</td>
+                        <td class="px-3 py-2">Linha1Col2</td>
+                        <td class="px-3 py-2">Linha1Col3</td>
+                        <td class="px-3 py-2">Linha1Col4</td>
+                    </tr>
+
+                    <tr>
+                        <td class="px-3 py-2">Linha2Col1</td>
+                        <td class="px-3 py-2">Linha2Col2</td>
+                        <td class="px-3 py-2">Linha2Col3</td>
+                        <td class="px-3 py-2">Linha2Col4</td>
+                    </tr>
+
+                    <tr>
+                        <td class="px-3 py-2">Linha3Col1</td>
+                        <td class="px-3 py-2">Linha3Col2</td>
+                        <td class="px-3 py-2">Linha3Col3</td>
+                        <td class="px-3 py-2">Linha3Col4</td>
+                    </tr>
+                </tbody>    
             </table>
+            </div>  
 
             </section>
 
