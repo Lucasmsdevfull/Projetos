@@ -15,7 +15,7 @@
 
         <div class="flex items-center border rounded-sm border-gray-200">
         <i class="fa-solid fa-magnifying-glass text-gray-200 mx-3"></i>
-        <input class="outline-none w-100 text-gray-400" type="text" placeholder="Search for projects">
+        <input class="outline-none w-100 text-gray-400" type="text" placeholder="Search for projects" name="Pesquisar">
         </div>
 
         <div class="flex items-center justify-between gap-[20px]">
@@ -77,9 +77,10 @@
             <h1 class="font-bold">Dashboard</h1>
             </section>
 
-            <section class="flex items-center rounded-lg inset-shadow-sm shadow-xl p-2 bg-[#7F3DF4]">
+            <section class="flex items-center rounded-lg inset-shadow-sm shadow-xl p-2 bg-[#7F3DF4]" name="Link Github">
                 <i class="fa-solid fa-star flex text-white mx-5"></i>
                 <p class="text-white"> Star this project on Github</p>
+                
             </section>
 
             <section class="flex items-center justify-between rounded-sm text-[12px] font-bold py-6" name="Cards">
@@ -137,10 +138,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="flex items-center justify-center justify-start grid grid-flow-col grid-rows-3">
-                            <img class="row-span-3 rounded-full w-7" src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
-                            <div class="col-span-2 flex bg-sky-500 " name="Name_Cliente">Lucas Mendonça</div>
-                            <div class="col-span-2 row-span-2 bg-sky-500" name="Cargo">Gerente de Projetos</div>
+                        <td class="flex items-center grid grid-flow-col grid-cols-[50px_1fr_2fr]">
+                            <img class="flex items-center row-span-3 rounded-full flex-col" src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
+                            <div class="col-span-2 flex bg-sky-500" name="Nome_Cliente">Lucas Mendonça</div>
+                            <div class="col-span-2 flex row-span-2 bg-sky-500" name="Cargo">Gerente de Projetos</div>
                         </td>
                         <td class="px-3 py-2">Linha1Col2</td>
                         <td class="px-3 py-2">Linha1Col3</td>
